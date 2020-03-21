@@ -11,6 +11,8 @@ public class ArrayImp {
 		int b[] = {1,2,3,4,5};
 		Scanner keyboard = new Scanner(System.in);
 		
+		System.out.println(b);
+		
 		System.out.println("Enter the int value in to array");
 		for(int i=0;i<a.length;i++) {
 			a[i]=keyboard.nextInt();
